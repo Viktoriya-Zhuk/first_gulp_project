@@ -1,0 +1,58 @@
+.top-header {
+  background: #013056 url(../img/Bg1-1.svg) no-repeat center;
+  background-size: cover;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* img.logo {
+  margin-left: 15px;
+} */
+.top-header p {
+  color: #caddea;
+  margin-bottom: 0;
+  font-family: "RobotoTh";
+  font-size: 20px;
+}
+.top-header a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-family: "RobotoR";
+  text-decoration: none;
+}
+.top-header a:nth-of-type(1) {
+  padding-right: 70px;
+}
+.top-header span {
+  font-family: "RobotoR";
+}
+.top-header p:first-of-type {
+  margin-right: 50px;
+}
+.icon-header {
+  display: flex;
+  align-items: center;
+}
+.icon .icon-header:first-child:after {
+  content: "";
+  width: 41px;
+  height: 25px;
+  background-position: -5px -45px;
+  margin-left: 10px;
+}
+.icon .icon-header:last-child:after {
+  content: "";
+  width: 51px;
+  height: 30px;
+  background-position: -5px -5px;
+  margin-left: 10px;
+}
+
+@media (max-width: 425px) {
+  .top-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+}

@@ -1,0 +1,96 @@
+.bg-nav {
+  background-color: #1b7fd0;
+  color: #fff;
+  font-family: "RobotoR";
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  
+}
+.menu-wrapper span{
+    position: absolute;
+}
+.bg-nav ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+.bg-nav li {
+  flex-grow: 1;
+  padding: 10px 0;
+  position: relative;
+}
+.bg-nav li:hover{
+ background-color: #CADDEA;
+
+}
+.bg-nav li:hover span{
+   opacity: 0;
+
+}
+.bg-nav li:hover a{
+    color: #1b7fd0;
+
+}
+.menu-wrapper :last-child span{
+  opacity: 0;
+}
+.bg-nav a {
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.bg-nav a:hover {
+  text-decoration: none;
+}
+
+.main-menu-wrapper .burger-menu {
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* mobbile 320 */
+
+.bg-nav p{
+  color: #CADDEA;
+  font-family: "RobotoTh";
+  font-size: 16px;
+  margin-bottom: 0;
+ 
+}
+.bg-nav p  span{
+  font-family: "RobotoR";
+}
+.sales-information-wrapper {
+  text-align: right;
+  width: 100%;
+}
+.social{
+  justify-content: end;
+ 
+}
+.social a {
+  margin-left: 70px;
+  width: auto;
+}
+@media (min-width: 768px){
+  .burger-menu{
+    padding-top: 1.05%;
+    padding-bottom: 1.05%;
+  }
+  .burger-menu.social-burger ul {
+    text-align: left;
+    height: 50px;
+    margin-top: -15px;
+}
+}
+@media (max-width: 425px){
+  .sales-information-wrapper{
+    padding-top: 1.05%;
+    padding-bottom: 1.05%;
+  }
+}
