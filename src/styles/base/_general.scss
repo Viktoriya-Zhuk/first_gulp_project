@@ -1,9 +1,50 @@
-h1, h2, h3, h4, h5, h6, ul, p, body {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .sprite::after {
-    background-image: url(../img/spritesheet.png);
-  }
-  
+  background-img: url(../img/spritesheet.png);
+}
+h3 {
+  font-size: 22px;
+  font-family: "RobotoM";
+  text-transform: uppercase;
+}
+h2 {
+  background-color: #caddea;
+  color: #1b7fd0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: "RobotoB";
+  padding: 15px 0;
+}
+
+.order {
+  // filter: drop-shadow(4px 4px 7px rgba(2, 68, 121, 0.75));
+  position: relative;
+}
+.order > p {
+  background-color: #dd0000;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 26px;
+  font-family: "RobotoR";
+  text-transform: uppercase;
+}
+.order > .d7 {
+  width: 0;
+  height: 0;
+  border-top: 16px solid #dd0000;
+  border-right: 20px solid transparent;
+}
