@@ -1,0 +1,34 @@
+.bg-paper {
+  background: url(../../../../img/Bg2.png) #1b7fd0 no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
+  background-size: 150%;
+  border-top: 1px solid #1b7fd0;
+}
+.bg-paper p {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Arial Narrow";
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bg-paper .col-3 p {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 20px;
+}
+.bg-paper .col-3 span {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-family: "RobotoB";
+  color: #1b7fd0;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
